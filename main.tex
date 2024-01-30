@@ -1,0 +1,276 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{hyphenat}
+\usepackage{fontawesome}
+\input{glyphtounicode}
+
+
+%---------- FONT OPTIONS ----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubSubheading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeEducationHeading}[4]{
+  \vspace{-2pt}\item
+  \textbf{#1} \hfill #2 \\
+  \textit{\small#3} \hfill \textit{\small #4}\vspace{-5pt}
+}
+
+
+
+
+
+
+
+\newcommand{\resumeOrganizationHeading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small#3}
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\definecolor{linkblue}{rgb}{0,0,0.7} % Define the color for links
+\usepackage[hidelinks]{hyperref} % Modify the hyperref settings
+\hypersetup{
+    colorlinks=true,
+    allcolors=black,    % Default color (black)
+    urlcolor=linkblue       % Color for URLs
+    % linkcolor=black   % Uncomment if you want to keep internal links black
+}
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%---------- HEADING ----------
+
+\begin{center}
+    \textbf{\Huge \scshape Samy Mostafa Shaawat} \\ \vspace{3pt}
+    \small
+    \href{tel:+201091539396}
+    {\faMobile  \hspace{.5pt} \underline { +20 109 153 9396}}
+    $|$
+    \href{mailto:samy.shaawat@gmail.com}
+    {\raisebox{-0.1\height}\faEnvelope \hspace{.5pt} \underline  { samy.shaawat@gmail.com}}
+    $|$
+    \href{https://www.linkedin.com/in/SamyShaawat}
+    {\faLinkedinSquare \hspace{.5pt} \underline {My LinkedIn}}
+    $|$
+    \href{https://github.com/SamyShaawat}
+    {\faGithub \hspace{.5pt} \underline {My GitHub}}
+    $|$
+    \href{https://maps.app.goo.gl/6eYDnYCmNnW4MBf79}
+    {\faMapMarker \hspace{.5pt} \underline {Alexandria, Egypt}}
+\end{center}
+
+
+%----------- EDUCATION -----------
+
+\section{Education}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+    
+    \resumeEducationHeading
+      {Egypt-Japan University of Science and Technology (E-JUST)}{Alexandria, Egypt}
+      {B.Sc. in Computer Science and Engineering; {Faculty of Engineering} $|$ \textbf{GPA: 3.04}}{Sep 2019 \textbf{--} Mar 2024}
+  \resumeSubHeadingListEnd
+
+%----------- Work EXPERIENCE -----------
+
+\section{Work Experience}
+  % \vspace{3pt}
+  \resumeSubHeadingListStart
+  \resumeSubheading
+      {Front-end Developer Intern}{Alexandria, Egypt}
+      {NTI - National Telecommunication Institute}{Oct 2023 \textbf{--} Nov 2023, Internship}
+    \resumeItemListStart
+    \resumeItem{Worked with HTML, CSS, and JavaScript, doing tasks on making web pages that adjust well to different devices.}
+    \resumeItem{Practiced with HTML5, CSS3, and Bootstrap through practical tasks to make web pages more interactive and user-friendly.}
+\resumeItemListEnd
+
+
+        
+    \resumeSubheading
+      {Machine Learning Intern}{Alexandria, Egypt}
+      {Summer Training - Under Supervision of \textbf{Dr. Marwan Torki}}{Jul 2023 \textbf{--} Sep 2023, Internship}
+        \resumeItemListStart
+            \resumeItem{Finished all five courses of \textbf{ Deep Learning Specialization by Coursera.}}
+            \resumeItem{Successfully completed the Ultrasound Nerve Segmentation competition on Kaggle,The task was to identify nerve structures in ultrasound images of the neck. }
+        \resumeItemListEnd
+        
+    \resumeSubheading
+      {Software Engineer Intern}{Alexandria, Egypt}
+      {Smart System - IT Company}{Jul 2022 \textbf{--} Sep 2022, Internship}
+        \resumeItemListStart
+            \resumeItem{Trained on installation, implementation and design ERD on IBM Cognos Framework Manager and learned how to use IBM Maximo - Enterprise Asset Management (EAM), and also trained on \textbf{IBM Cognos Analytics 11.0 } for data modeling and SQL-based queries.}
+            \resumeItem{Collaborated with the team on analytics reports for the Holding Company of Water and Wastewater (HCWW) project}
+        \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%----------- RESEARCH EXPERIENCE -----------
+
+\section{Research Experience}
+  % \vspace{3pt}
+  \resumeSubHeadingListStart
+  
+    \resumeSubheading
+      {Network Analysis of Reddit for Egyptian Community $|$ \emph{\href{https://github.com/SamyShaawat/Network-Analysis-of-the-Egyptian-Reddit-Community.git}{\underline{\color{linkblue}GitHub}}} $|$ \emph{\href{https://tinyurl.com/4fyhhbvy}{\underline{\color{linkblue}The Paper}}}}{}
+      {ICINCO 2023, Rome, Italy}{Nov 2023}
+    \resumeItemListStart
+        \resumeItem{Conducted a comprehensive network analysis of the Egyptian Reddit community, examining 23,185 users and 105 subreddits using NetworkX and Graphml.}
+        \resumeItem{Employed advanced techniques for network visualization and analysis, including degree, centrality, clustering coefficients, density, and both static and dynamic community discovery. Collaborated with colleagues \textbf{Adham Hammad, Karim Farhat, Mina Thabet}, and under the guidance of \textbf{Prof. Walid Gomaa.}}
+        % \resumeItem{Revealed insights into community dynamics and user interactions, identifying key influencers and evolving patterns within the digital social structure.}
+    \resumeItemListEnd
+
+    
+  \resumeSubHeadingListEnd
+%----------- PROJECTS -----------
+\section{Projects}
+% \vspace{3pt}
+\resumeSubHeadingListStart          
+    \resumeSubheading
+        {\textbf{Toys Shop Website} $|$ \emph{\href{https://github.com/SamyShaawat/Toys-Shop-Website}{\underline{\color{linkblue}GitHub}}}}{Jan 2023}{React - NodeJs - MySQL - ExpressJs - Sequelize}{}
+            \resumeItemListStart
+                \resumeItem{Developed user authentication and product search features, allowing users to register, log in, and search for products by name, brand, and price.}
+            \resumeItem{Implemented product filtering, detailed product display, shopping cart management, and the ability to add new products with image upload to enhance the overall e-commerce experience.}
+          \resumeItemListEnd
+
+    \resumeSubheading
+        {\textbf{Pharmacy Management System} $|$ \emph{\href{https://github.com/SamyShaawat/Pharmacy-Management-System}{\underline{\color{linkblue}GitHub}}}}{Sep 2022}{Python - Tkinter - Sqlite - Pandas}{}
+            \resumeItemListStart
+                \resumeItem{Developed a user-friendly desktop pharmacy inventory management application using Python and Tkinter for the graphical user interface.}
+            \resumeItem{Implemented features such as adding/updating items, searching by name or company, and data import/export to Excel files, enhancing pharmacy operations efficiency.}
+          \resumeItemListEnd
+\resumeSubHeadingListEnd
+%----------- SKILLS -----------
+
+\section{Skills}
+  % \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+        \textbf{Technical Skills:}{ C, C++, Python, JavaScript, NodeJS, HTML, CSS, Bootstrap, SQL, Git, IBM Cognos Analytics} \\ \vspace{3pt}
+        
+        \textbf{Personal Skills:}{ Leadership Skills, Coordinator, Organizer, Problem Solving, Decision-maker, Flexible, Research Author} \\ \vspace{3pt} 
+        
+        \textbf{Languages:}{ Arabic (Native), English (Intermediate)}\\ \vspace{3pt}
+        
+    }}
+  \resumeSubHeadingListEnd
+
+
+%-----------Achievements-----------
+
+\section{Achievements}
+    \resumeItemListStart
+                 \resumeItem{Deep Learning Specialization ,Coursera, Sep 2023}
+                \resumeItem{Business Intelligence Analyst 2022 - \textbf{Mastery Award}, IBM Skills Academy, Aug 2022}
+                \resumeItem{Business Intelligence Analyst 2022 - \textbf{Explorer Award} , IBM Skills Academy, Jul 2022}
+                \resumeItem{{Web Development Challenger Track} {, Udacity} {, Jun 2022}  }
+\resumeItemListEnd
+
+
+
+        
+
+    
+%-----------Volunteering Work and Contests-----------
+\section{Volunteering Work and Contests}
+
+\textbf{{Organizer and Coordinator} {(2020 -- 2022)}}{}{}
+    \resumeItemListStart
+        \resumeItem{Lead Event Organizer, TEDx, E-JUST (2022)}
+        \resumeItem{Organizer, Ana Fani, Bibliotheca Alexandrina (2021)}
+        \resumeItem{Organizer, Operations Team, E-JUST (From 2020 To 2022)}
+        \resumeItem{Coordinator, Model of Companies Simulation (MCS), AAST (2020)}
+\resumeItemListEnd
+    
+    \textbf{{Mentor} {, IEEE E-JUST Student Branch}{} {(2022)}}  
+    
+    \textbf{{Contestant} {, ECPC, AAST} {} {(2021 and 2022)} }
+
+
+    
+\end{document}
