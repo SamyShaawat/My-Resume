@@ -1,0 +1,273 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{hyphenat}
+\usepackage{fontawesome}
+
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+
+\fancyhf{} 
+\fancyfoot{}
+
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-0.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand*{\address}[1]{\def\@address{#1}}
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeEducationHeading}[4]{
+  \vspace{-2pt}\item
+  \textbf{#1} \hfill #2 \\
+  \textit{\small#3} \hfill \textit{\small #4}\vspace{-5pt}
+}
+
+\newcommand{\resumeOrganizationHeading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small#3}
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\definecolor{linkblue}{rgb}{0,0,0.8} % Define the color for links
+\definecolor{linkblue}{rgb}{0,0,0.8} % Define the color for links
+\usepackage[hidelinks]{hyperref}
+\definecolor{linkblue}{rgb}{0,0,0.8} % Define the color for links
+\hypersetup{
+    colorlinks=true,
+    allcolors=black,
+    % urlcolor=linkblue % Color for URLs
+}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+%---------- HEADING ----------
+\begin{center}
+    \textbf{\Huge \scshape \hspace{1pt} Samy Mostafa Shaawat} \\ \vspace{9pt}
+      \textbf{ \href{https://maps.app.goo.gl/6eYDnYCmNnW4MBf79} 
+    {\faMapMarker \small \hspace{0.5pt} Alexandria,Egypt}}
+    $|$
+    \textbf{Military Status:} Exempted  
+\end{center}
+    \small
+    \href{tel:+201091539396}
+    {\faPhone \hspace{.5pt} +20 109 153 9396}
+    $|$
+    \href{mailto:samy.shaawat@gmail.com}
+    {\faEnvelope \hspace{.5pt} samy.shaawat@gmail.com}
+    $|$
+    \href{https://www.linkedin.com/in/SamyShaawat}
+    {\faLinkedinSquare \hspace{.5pt} linkedin.com/in/SamyShaawat}
+    $|$
+    \href{https://github.com/SamyShaawat}
+    {\faGithub \hspace{.5pt} github.com/SamyShaawat}
+
+
+%----------- EDUCATION -----------
+\section{Education}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+    
+    \resumeEducationHeading
+      {Egypt-Japan University of Science and Technology (E-JUST)}{Alexandria, Egypt}
+      {B.Sc. in Computer Science and Engineering $|$  \textbf{{Very Good}} $|$ \textbf{GPA: 3.02 $/$ 4.00}}{Sep 2019 \textbf{--} Feb 2024}
+  \resumeSubHeadingListEnd
+
+  
+%----------- Work EXPERIENCE -----------
+\section{Work Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Teaching Assistant} {Alexandria, Egypt}
+      {E-JUST - Egypt-Japan University of Science and Technology}{Apr 2024 \textbf{--} Present, Part-time}
+        \resumeItemListStart
+        \resumeItem{Guided students in complex concepts; taught courses like \textbf{Deep Learning, Parallel and Distributed Computing, Advanced Computer Architecture, Fundamental of Computer Programming  and Advanced Computer Programming.}}
+
+        \resumeItemListEnd
+ 
+    \resumeSubheading
+      {Software Engineer $|$ \emph{\href{https://drive.google.com/file/d/118ZqceeMhAKE-Pi21Rlj7vYr0IR9g0V4/view?usp=drive_link}{\underline{\color{linkblue}Certification}}}}{Alexandria, Egypt}
+      {Smart System - IT Company}{Jul 2022 \textbf{--} Sep 2022, Internship}
+        \resumeItemListStart
+            \resumeItem{Trained on \textbf{IBM Cognos} for \textbf{ERD} design, data modeling, \textbf{SQL}, and analytics reports for Holding Company of Water and Wastewater (HCWW) project using \textbf{IBM Maximo} and\textbf{ Cognos Analytics}.}
+
+        \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%----------- Training -----------
+\section{Training}
+  \resumeSubHeadingListStart
+
+      \resumeSubheading
+          {Backend Developer}{Alexandria, Egypt}
+          {Route Academy}{Oct 2024 \textbf{--} Mar 2025, Training}
+        \resumeItemListStart
+        \resumeItem{Trained in backend development, mastering \textbf{Node.js, Express.js, REST APIs, MySQL, MongoDB, Sequelize, Mongoose, and more}, with skills in \textbf{security, validation, file handling, deployment, and testing.}}
+
+    \resumeItemListEnd
+    \resumeSubheading
+          {Web Development $|$ \emph{\href{https://drive.google.com/file/d/1vogCxfOE3KXipP65FBaffSynY_MzE4Ri/view?usp=drive_link}{\underline{\color{linkblue}Certification}}}}{Alexandria, Egypt}
+          {NTI - National Telecommunication Institute}{Oct 2023 \textbf{--} Nov 2023, Training}
+        \resumeItemListStart
+        \resumeItem{Trained in web development, creating responsive pages using \textbf{HTML, CSS, JavaScript, and Bootstrap.}}
+    \resumeItemListEnd
+        
+  \resumeSubHeadingListEnd
+% \emph{\href{https://drive.google.com/file/d/1vogCxfOE3KXipP65FBaffSynY_MzE4Ri/view?usp=drive_link}{\underline{\color{linkblue}Certification}}}
+%----------- SKILLS -----------
+\section{Skills}
+  % \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+    \textbf{Technical Skills:}
+        {JavaScript,
+        Node.js, 
+        Express.js, 
+        REST APIs, 
+        GraphQL,
+        MySQL, 
+        MongoDB, 
+        OOP,
+        Python, 
+        C++,
+        Git, 
+        C,
+        React.js, 
+        HTML, 
+        CSS, 
+        Bootstrap, 
+        Tailwind
+        } \\ \vspace{3pt}
+        
+        \textbf{Personal Skills:}{ Leadership Skills, Coordinator, Organizer, Problem Solving, Decision-maker, Flexible, Teamwork} \\ \vspace{3pt}
+        
+        \textbf{Languages:}{ Arabic (Native), English (Intermediate)}\\ \vspace{3pt}
+    }}
+
+  \resumeSubHeadingListEnd
+  
+
+%----------- PROJECTS -----------
+\section{Projects}
+\resumeSubHeadingListStart
+    
+\resumeSubheading
+        {\textbf{Nofa Egypt} $|$ \emph{\href{https://github.com/SamyShaawat/nofa-egypt}{\underline{\color{linkblue}GitHub Repo}}}
+        $|$ \emph{\href{https://nofaegypt.rowad.com/}{\underline{\color{linkblue}View Live}}}
+        }{Aug 2024}
+        {Node.js- Express.js - React.js - Tailwind CSS - HTML}{}
+        \resumeItemListStart
+        \resumeItem{Built responsive React pages with \textbf{Authentication, Control Panel, Send emails}, and \textbf{CRUD} operations.}
+
+        \resumeItemListEnd
+\vspace{3pt}    
+
+ 
+    \resumeSubheading
+        {\textbf{Rowad For Software Development} $|$ \emph{\href{https://github.com/SamyShaawat/rowad-for-software-development}{\underline{\color{linkblue}GitHub Repo}}}
+        $|$ \emph{\href{https://rowad.com/}{\underline{\color{linkblue}View Live}}}
+        }{Jun 2024}
+        {React.js - Tailwind CSS - HTML}{}
+        \resumeItemListStart
+            \resumeItem{Created responsive React pages with Tailwind, AOS, and \textbf{Pagination} for improved navigation on Clients page.}
+        \resumeItemListEnd
+
+
+\vspace{3pt}
+    \resumeSubheading
+        {\textbf{My Graduation Project $|$ URL Phishing Detection Using LLaMA 2} $|$ \emph{\href{https://github.com/SamyShaawat/URL-Phishing-Detection-Using-LLaMA-2}{\underline{\color{linkblue}GitHub Repo}}}}{Feb 2024}{Python - Postman - LLaMA - Flask - Hugging Face}{}
+        \resumeItemListStart
+            \resumeItem{Built LLaMA-2 model for URL phishing detection with 98.2\% accuracy and Flask API integration.}
+        \resumeItemListEnd
+\vspace{3pt}         
+\resumeSubHeadingListEnd
+
+
+\section{Achievements}
+    \resumeItemListStart
+                \resumeItem{Cybersecurity Essentials ,Cisco Networking Academy, Aug 2024}
+                \resumeItem{Introduction to Cybersecurity ,Cisco Networking Academy, Jul 2024}
+                \resumeItem{Deep Learning Specialization ,Coursera, Sep 2023}
+                \resumeItem{Business Intelligence Analyst  - Mastery Award, IBM Skills Academy, Aug 2022}
+                \resumeItem{Business Intelligence Analyst 2022 - \textbf{Explorer Award} , IBM Skills Academy, Jul 2022}
+                \resumeItem{{Web Development Challenger Track} {, Udacity} {, Jun 2022}  }
+\resumeItemListEnd
+
+%-----------Volunteering Work and Contests-----------
+% \section{Volunteering Work}
+% % \textbf{{Contestant} {, ECPC, AAST} {} {(2021 -- 2022)} }  
+
+% % \textbf{{Mentor} {, IEEE E-JUST Student Branch}{} {(2022)}} 
+
+% \textbf{{Coordinator and Organizer} {(2020 -- 2022)}}{}{}
+%     \resumeItemListStart
+%         \resumeItem{Lead Event Organizer, TEDx, E-JUST (2022)}
+%         \resumeItem{Coordinator, Operations Team, E-JUST (2020 -- 2022)}
+%         \resumeItem{Organizer, Ana Fani, Bibliotheca Alexandrina (2021)}
+%         \resumeItem{Organizer, Model of Companies Simulation (MCS), AAST (2020)}
+% \resumeItemListEnd
+\end{document}

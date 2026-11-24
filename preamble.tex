@@ -1,0 +1,40 @@
+% Shared ATS-friendly preamble: single column, standard fonts, no icons,
+% selectable/copyable text (glyphtounicode + T1), standard section names.
+\documentclass[letterpaper,10pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[margin=0.4in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\usepackage[english]{babel}
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+\pagestyle{empty}
+\raggedright
+\setlength{\parindent}{0pt}
+\urlstyle{same}
+
+\titleformat{\section}{\bfseries\large}{}{0em}{\MakeUppercase}[\titlerule]
+\titlespacing*{\section}{0pt}{4pt}{2pt}
+
+\setlist[itemize]{leftmargin=0.18in,itemsep=-1pt,topsep=0pt,parsep=0pt,label=\textbullet}
+
+% \entry{Title}{Right}{Subtitle}{Right2}
+\newcommand{\entry}[4]{\textbf{#1}\hfill #2\\\textit{#3}\hfill\textit{#4}\par\vspace{-1pt}}
+% \proj{Title}{Tech}
+\newcommand{\proj}[2]{\textbf{#1} -- \textit{#2}\par\vspace{-1pt}}
+
+\newcommand{\header}[1]{%
+  \begin{center}
+    {\LARGE\bfseries Samy Mostafa Shaawat}\\[2pt]
+    {\large #1}\\[2pt]
+    \small Alexandria, Egypt \,|\, +20 109 153 9396 \,|\, \href{mailto:samy.shaawat@gmail.com}{samy.shaawat@gmail.com}\\
+    \href{https://www.linkedin.com/in/samyshaawat}{linkedin.com/in/samyshaawat} \,|\,
+    \href{https://github.com/SamyShaawat}{github.com/SamyShaawat} \,|\,
+    \href{https://samy.rowad.com}{samy.rowad.com}%
+    \ifdefined\orcid\,|\, \href{https://orcid.org/0009-0002-2679-6695}{ORCID: 0009-0002-2679-6695}\fi
+  \end{center}\vspace{-8pt}}

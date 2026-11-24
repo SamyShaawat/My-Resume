@@ -13,24 +13,14 @@
 \usepackage{tabularx}
 \usepackage{hyphenat}
 \usepackage{fontawesome}
+
 \input{glyphtounicode}
 
-
-%---------- FONT OPTIONS ----------
-% sans-serif
-% \usepackage[sfdefault]{FiraSans}
-% \usepackage[sfdefault]{roboto}
-% \usepackage[sfdefault]{noto-sans}
-% \usepackage[default]{sourcesanspro}
-
-% serif
-% \usepackage{CormorantGaramond}
-% \usepackage{charter}
-
-
 \pagestyle{fancy}
-\fancyhf{} % clear all header and footer fields
+
+\fancyhf{} 
 \fancyfoot{}
+
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 
@@ -45,6 +35,7 @@
 
 \raggedbottom
 \raggedright
+
 \setlength{\tabcolsep}{0in}
 
 % Sections formatting
@@ -64,7 +55,6 @@
   }
 }
 
-
 \newcommand{\resumeSubheading}[4]{
   \vspace{-2pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
@@ -73,7 +63,6 @@
     \end{tabular*}\vspace{-7pt}
 }
 
-
 \newcommand{\resumeSubSubheading}[2]{
     \vspace{-2pt}\item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
@@ -81,18 +70,11 @@
     \end{tabular*}\vspace{-7pt}
 }
 
-
 \newcommand{\resumeEducationHeading}[4]{
   \vspace{-2pt}\item
   \textbf{#1} \hfill #2 \\
   \textit{\small#3} \hfill \textit{\small #4}\vspace{-5pt}
 }
-
-
-
-
-
-
 
 \newcommand{\resumeOrganizationHeading}[4]{
   \vspace{-2pt}\item
@@ -103,55 +85,55 @@
 }
 
 \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
-
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
-
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
 \definecolor{linkblue}{rgb}{0,0,0.8} % Define the color for links
-\usepackage[hidelinks]{hyperref} % Modify the hyperref settings
+\definecolor{linkblue}{rgb}{0,0,0.8} % Define the color for links
+\usepackage[hidelinks]{hyperref}
+\definecolor{linkblue}{rgb}{0,0,0.8} % Define the color for links
 \hypersetup{
     colorlinks=true,
-    allcolors=black,    % Default color (black)
-    urlcolor=linkblue       % Color for URLs
-    % linkcolor=black   % Uncomment if you want to keep internal links black
+    allcolors=black,
+    % urlcolor=linkblue % Color for URLs
 }
+
+
+
+
+
 %-------------------------------------------
 %%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
 \begin{document}
-
 %---------- HEADING ----------
-
 \begin{center}
-    \textbf{\Huge \scshape Samy Mostafa Shaawat} \\ \vspace{1pt}
+    \textbf{\Huge \scshape \hspace{1pt} Samy Mostafa Shaawat} \\ \vspace{9pt}
+      \textbf{ \href{https://maps.app.goo.gl/6eYDnYCmNnW4MBf79} 
+    {\faMapMarker \small \hspace{0.5pt} Alexandria,Egypt}}
+    $|$
+    \textbf{Military Status:} Exempted  
 \end{center}
     \small
     \href{tel:+201091539396}
-    {\faMobile \hspace{.5pt} \underline {+20 109 153 9396}}
+    {\faPhone \hspace{.5pt} +20 109 153 9396}
     $|$
     \href{mailto:samy.shaawat@gmail.com}
-    {\raisebox{-0.1\height}\faEnvelope \hspace{.5pt} \underline  {samy.shaawat@gmail.com}}
+    {\faEnvelope \hspace{.5pt} samy.shaawat@gmail.com}
     $|$
     \href{https://www.linkedin.com/in/SamyShaawat}
-    {\faLinkedinSquare \hspace{.5pt} \underline {My LinkedIn}}
+    {\faLinkedinSquare \hspace{.5pt} linkedin.com/in/SamyShaawat}
     $|$
     \href{https://github.com/SamyShaawat}
-    {\faGithub \hspace{.5pt} \underline {My GitHub}}
-    $|$
-    \href{https://samyshaawat.github.io/portfolio/}
-    {\faGlobe \hspace{0.5pt} \underline {My Portfolio}}
-    $|$ 
-    \href{https://maps.app.goo.gl/6eYDnYCmNnW4MBf79} {\faMapMarker \hspace{0.5pt} \underline {Alexandria,Egypt}}
+    {\faGithub \hspace{.5pt} github.com/SamyShaawat}
+
+
 
 
 
 %----------- EDUCATION -----------
-
 \section{Education}
   \vspace{3pt}
   \resumeSubHeadingListStart
@@ -161,27 +143,40 @@
       {B.Sc. in Computer Science and Engineering, {Faculty of Engineering} $|$ \textbf{GPA: 3.02 $/$ 4.00}}{Sep 2019 \textbf{--} Feb 2024}
   \resumeSubHeadingListEnd
 
-%----------- Work EXPERIENCE -----------
 
+
+
+
+
+%----------- Work EXPERIENCE -----------
 \section{Work Experience}
   % \vspace{3pt}
   \resumeSubHeadingListStart
-  \resumeSubheading
-      {Frontend Developer Intern  $|$ \emph{\href{https://drive.google.com/file/d/1vogCxfOE3KXipP65FBaffSynY_MzE4Ri/view?usp=drive_link}{\underline{\color{linkblue}Certification}}}}{Alexandria, Egypt}
-      {NTI - National Telecommunication Institute}{Oct 2023 \textbf{--} Nov 2023, Internship}
-    \resumeItemListStart
-    \resumeItem{Worked with HTML, CSS, and JavaScript, doing tasks on making web pages that adjust well to different devices.}
-    \resumeItem{Practiced with HTML5, CSS3, and Bootstrap through practical tasks to make web pages more interactive and user-friendly.}
-\resumeItemListEnd
-
-
-        
     \resumeSubheading
+      {Teaching Assistant} {Alexandria, Egypt}
+      {E-JUST - Egypt-Japan University of Science and Technology}{Apr 2024 \textbf{--} Present, Part-time}
+        \resumeItemListStart
+            \resumeItem{As a Teaching Assistant, I guided students through challenging computer science topics, fostering a productive learning environment by helping them debug code and understand complex algorithms.}
+            \resumeItem{Effectively instructed courses such as Deep Learning, Parallel and Distributed Computing, Advanced Computer Architecture, and Advanced Computer Programming.}
+        \resumeItemListEnd
+
+    \resumeSubheading
+      {Frontend Developer} {Alexandria, Egypt}
+      {Freelancer}{Mar 2024 \textbf{--} Nov 2024, Freelance}
+        \resumeItemListStart
+            \resumeItem{Developed responsive \textbf{React} apps with secure \textbf{Authentication},\textbf{Control Panel} features, \textbf{Animations}, \textbf{AOS} scroll, \textbf{Agile} concepts, and \textbf{Email} functionality using \textbf{Nodemailer}, ensuring client satisfaction.}
+        \resumeItemListEnd
+
+
+
+
+
+
+   \resumeSubheading
       {Machine Learning Intern  $|$ \emph{\href{https://drive.google.com/file/d/1DhYR5qTMv6FbEbcf0biSh3zYziOB2V-3/view?usp=drive_link}{\underline{\color{linkblue}Certification}}}}{Alexandria, Egypt}
       {Summer Training - Under Supervision of \textbf{Prof. Marwan Torki}}{Jul 2023 \textbf{--} Sep 2023, Internship}
         \resumeItemListStart
-            \resumeItem{Finished all five courses of \textbf{ Deep Learning Specialization by Coursera.}}
-            \resumeItem{Successfully completed the Ultrasound Nerve Segmentation competition on Kaggle,The task was to identify nerve structures in ultrasound images of the neck. }
+        \resumeItem{Completed all courses in the \textbf{Deep Learning Specialization} on Coursera and successfully participated in Kaggle’s Ultrasound Nerve Segmentation competition, focusing on identifying nerve structures in neck ultrasound images.}
         \resumeItemListEnd
         
     \resumeSubheading
@@ -193,8 +188,12 @@
         \resumeItemListEnd
   \resumeSubHeadingListEnd
 
-%----------- RESEARCH EXPERIENCE -----------
 
+
+
+
+
+%----------- RESEARCH EXPERIENCE -----------
 \section{Research Experience}
   % \vspace{3pt}
   \resumeSubHeadingListStart
@@ -203,46 +202,74 @@
       {Network Analysis of Reddit for Egyptian Community $|$ \emph{\href{https://github.com/SamyShaawat/Network-Analysis-of-the-Egyptian-Reddit-Community.git}{\underline{\color{linkblue}GitHub}}} $|$ \emph{\href{https://tinyurl.com/4fyhhbvy}{\underline{\color{linkblue}Paper}}}}{}
       {ICINCO 2023, Rome, Italy}{Nov 2023}
     \resumeItemListStart
-        \resumeItem{Conducted a comprehensive network analysis of the Egyptian Reddit community, examining 23,185 users and 105 subreddits using NetworkX and Graphml.}
-        \resumeItem{Employed advanced techniques for network visualization and analysis, including degree, centrality, clustering coefficients, density, and both static and dynamic community discovery. Collaborated with colleagues \textbf{Adham Hammad, Karim Farhat, Mina Thabet}, and under the guidance of \textbf{Prof. Walid Gomaa.}}
-        % \resumeItem{Revealed insights into community dynamics and user interactions, identifying key influencers and evolving patterns within the digital social structure.}
+        \resumeItem{Performed an in-depth network analysis of the Egyptian Reddit community, analyzing 23,185 users and 105 subreddits with \textbf{NetworkX} and \textbf{GraphML}, applying advanced techniques such as centrality, clustering, density metrics, and community discovery.}
     \resumeItemListEnd
 
     
   \resumeSubHeadingListEnd
-%----------- PROJECTS -----------
-\section{Projects}
-% \vspace{3pt}
-\resumeSubHeadingListStart          
-    \resumeSubheading
-            {\textbf{URL Phishing Detection Using LLaMA 2} $|$ My Graduation Project $|$ \emph{\href{https://github.com/SamyShaawat/URL-Phishing-Detection-Using-LLaMA-2}{\underline{\color{linkblue}GitHub}}}}{Feb 2024}{Python - Postman - LLaMA - Flask - Hugging Face}{}
-            \resumeItemListStart
-                \resumeItem{Developed a deep learning model utilizing LLaMA-2 for URL phishing detection, achieving up to \textbf{98.2\%} accuracy in distinguishing between phishing and legitimate URLs.}
-                \resumeItem{Developed a Flask-based RESTful API that utilizes the trained LLaMA-2 model for URL phishing detection. This API provides endpoints for real-time URL classification, model loading, URL request handling, and determining whether a link is phishing or not. This implementation facilitates seamless integration into cybersecurity systems.}
-            \resumeItemListEnd
 
-    \resumeSubheading
-        {\textbf{Toys Shop Website} $|$ \emph{\href{https://github.com/SamyShaawat/Toys-Shop-Website}{\underline{\color{linkblue}GitHub}}}}{Jan 2023}{React - NodeJs - MySQL - ExpressJs - Sequelize}{}
-            \resumeItemListStart
-                \resumeItem{Developed user authentication and product search features, allowing users to register, log in, and search for products by name, brand, and price.}
-                \resumeItem{Implemented product filtering, detailed product display, shopping cart management, and the ability to add new products with image upload to enhance the overall e-commerce experience.}
-            \resumeItemListEnd
 
-    \resumeSubheading
-        {\textbf{Pharmacy Management System} $|$ \emph{\href{https://github.com/SamyShaawat/Pharmacy-Management-System}{\underline{\color{linkblue}GitHub}}}}{Sep 2022}{Python - Tkinter - Sqlite - Pandas}{}
-            \resumeItemListStart
-                \resumeItem{Developed a user-friendly desktop pharmacy inventory management application using Python and Tkinter for the graphical user interface.}
-                \resumeItem{Implemented features such as adding/updating items, searching by name or company, and data import/export to Excel files, enhancing pharmacy operations efficiency.}
-            \resumeItemListEnd
-\resumeSubHeadingListEnd
+
+
+%----------- Training -----------
+\section{Training}
+  \resumeSubHeadingListStart
+        \resumeSubheading
+          {Backend Development}{Alexandria, Egypt}
+          {Route Academy}{Oct 2024 \textbf{--} Mar 2025, Training}
+        \resumeItemListStart
+        \resumeItem{Trained in backend development, mastering \textbf{Node.js, Express.js, REST APIs, MySQL, MongoDB, Sequelize, Mongoose, and more}, with skills in \textbf{security, validation, file handling, deployment, and testing.}}
+
+    \resumeItemListEnd
+   \resumeSubheading
+        {Generative AI } {Alexandria, Egypt}
+        {DEPI - Digital Egypt Pioneers Initiative}{Apr 2024 \textbf{--} Oct 2024, Internship}
+        \resumeItemListStart
+            \resumeItem{Gained hands-on experience in Machine Learning, Deep Learning, and Generative AI, utilizing tools like \textbf{MLflow} and \textbf{Hugging Face} for ML operations.}
+        \resumeItemListEnd
+
+      \resumeSubheading
+          {Web Development $|$ \emph{\href{https://drive.google.com/file/d/1vogCxfOE3KXipP65FBaffSynY_MzE4Ri/view?usp=drive_link}{\underline{\color{linkblue}Certification}}}}{Alexandria, Egypt}
+          {NTI - National Telecommunication Institute}{Oct 2023 \textbf{--} Nov 2023, Training}
+        \resumeItemListStart
+        \resumeItem{Trained in web development, creating responsive pages using \textbf{HTML, CSS, JavaScript, and Bootstrap.}}
+    \resumeItemListEnd
+        
+  \resumeSubHeadingListEnd
 
 %----------- SKILLS -----------
-
 \section{Skills}
   % \vspace{2pt}
   \resumeSubHeadingListStart
     \small{\item{
-        \textbf{Technical Skills:}{ C, C++, Python, JavaScript, NodeJS, HTML, CSS, Bootstrap, SQL, Git, IBM Cognos Analytics} \\ \vspace{3pt}
+\textbf{Technical Skills:}
+{
+Bootstrap, 
+C, 
+C++, 
+CSS, 
+Database, 
+Express.js, 
+Git, 
+GraphQL, 
+HTML, 
+JavaScript, 
+Kaggle, 
+Keras, 
+MongoDB, 
+MySQL, 
+Node.js, 
+OOP, 
+Python, 
+React.js, 
+REST APIs, 
+SQL, 
+Tailwind, 
+TensorFlow, 
+MERN Stack,
+RESTful APIs
+}
+\\ \vspace{3pt}
         
         \textbf{Personal Skills:}{ Leadership Skills, Coordinator, Organizer, Problem Solving, Decision-maker, Flexible, Research Author} \\ \vspace{3pt} 
         
@@ -251,24 +278,98 @@
     }}
   \resumeSubHeadingListEnd
 
+%----------- PROJECTS -----------
+\section{Projects}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+        {\textbf{Nofa Egypt} $|$ \emph{\href{https://github.com/SamyShaawat/nofa-egypt}{\underline{\color{linkblue}GitHub Repo}}}
+        $|$ \emph{\href{https://nofaegypt.rowad.com/}{\underline{\color{linkblue}View Live}}}
+        }{Aug 2024}
+        {Node.js- Express.js - React.js - Tailwind CSS - HTML}{}
+        \resumeItemListStart
+        \resumeItem{Built responsive React pages with \textbf{Authentication, Control Panel, Send emails}, and \textbf{CRUD} operations.}
+
+        \resumeItemListEnd
+\vspace{3pt}    
+
+\resumeSubheading
+        {\textbf{Rowad For Software Development} $|$ \emph{\href{https://github.com/SamyShaawat/rowad-for-software-development}{\underline{\color{linkblue}GitHub Repo}}}
+        $|$ \emph{\href{https://rowad.com/}{\underline{\color{linkblue}View Live}}}
+        }{Jun 2024}
+        {React.js - Tailwind CSS - HTML}{}
+        \resumeItemListStart
+            \resumeItem{Created responsive React pages with Tailwind, AOS, and \textbf{Pagination} for improved navigation on Clients page.}
+        \resumeItemListEnd
+
+\vspace{3pt}       
+\resumeSubheading
+    {\textbf{BCME $|$ BC Marine Electronics Inc.} $|$ \emph{\href{https://github.com/SamyShaawat/BCME}{\underline{\color{linkblue}GitHub Repo}}}
+    $|$ \emph{\href{https://www.img-bcme.com/}{\underline{\color{linkblue}View Live}}}
+    }{Mar 2024}
+    {HTML - CSS - JavaScript - Bootstrap}{}
+    \resumeItemListStart
+        \resumeItem{Developed a responsive multi-section website (About, Services, Contact) using HTML, CSS, JS, and Bootstrap.}
+    \resumeItemListEnd
+
+
+\vspace{3pt}
+    \resumeSubheading
+        {\textbf{My Graduation Project $|$ URL Phishing Detection Using LLaMA 2} $|$ \emph{\href{https://github.com/SamyShaawat/URL-Phishing-Detection-Using-LLaMA-2}{\underline{\color{linkblue}GitHub Repo}}}}{Feb 2024}{Python - Postman - LLaMA - Flask - Hugging Face}{}
+        \resumeItemListStart
+            \resumeItem{Built LLaMA-2 model for URL phishing detection with 98.2\% accuracy and Flask API integration.}
+        \resumeItemListEnd
+\vspace{3pt}
+   \resumeSubheading
+    {\textbf{Toys Shop Website} $|$ \emph{\href{https://github.com/SamyShaawat/Toys-Shop-Website}{\underline{\color{linkblue}GitHub Repo}}}}{Jan 2023}
+    {React.js - Node.js - Express.js - Sequelize - MySQL}{}
+    \resumeItemListStart
+        \resumeItem{Built user authentication, product search/filtering, cart management, and image upload features.}
+    \resumeItemListEnd
+
+\vspace{3pt}
+
+\resumeSubheading
+    {\textbf{Pharmacy Management System} $|$ \emph{\href{https://github.com/SamyShaawat/Pharmacy-Management-System}{\underline{\color{linkblue}GitHub Repo}}}}{Sep 2022}
+    {Python - Tkinter - SQLite - Pandas}{}
+    \resumeItemListStart
+        \resumeItem{Developed desktop app to manage inventory with item search, Excel export, and update features.}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+
+
+
+
+
+
+
+
+
+
 
 %-----------Achievements-----------
-
 \section{Achievements}
     \resumeItemListStart
-                 \resumeItem{Deep Learning Specialization ,Coursera, Sep 2023}
-                \resumeItem{Business Intelligence Analyst 2022 - \textbf{Mastery Award}, IBM Skills Academy, Aug 2022}
+                \resumeItem{Cybersecurity Essentials ,Cisco Networking Academy, Aug 2024}
+                \resumeItem{Introduction to Cybersecurity ,Cisco Networking Academy, Jul 2024}
+                \resumeItem{Deep Learning Specialization ,Coursera, Sep 2023}
+                \resumeItem{Business Intelligence Analyst  - Mastery Award, IBM Skills Academy, Aug 2022}
                 \resumeItem{Business Intelligence Analyst 2022 - \textbf{Explorer Award} , IBM Skills Academy, Jul 2022}
                 \resumeItem{{Web Development Challenger Track} {, Udacity} {, Jun 2022}  }
 \resumeItemListEnd
 
 
 
-        
 
-    
+
 %-----------Volunteering Work and Contests-----------
 \section{Volunteering Work and Contests}
+\textbf{{Contestant} {, ECPC, AAST} {} {(2021 -- 2022)} }  
+
+\textbf{{Mentor} {, IEEE E-JUST Student Branch}{} {(2022)}} 
 
 \textbf{{Organizer and Coordinator} {(2020 -- 2022)}}{}{}
     \resumeItemListStart
@@ -277,11 +378,9 @@
         \resumeItem{Organizer, Operations Team, E-JUST (From 2020 To 2022)}
         \resumeItem{Coordinator, Model of Companies Simulation (MCS), AAST (2020)}
 \resumeItemListEnd
-    
-    \textbf{{Mentor} {, IEEE E-JUST Student Branch}{} {(2022)}}  
-    
-    \textbf{{Contestant} {, ECPC, AAST} {} {(2021 and 2022)} }
 
 
-    
+
+
+
 \end{document}
